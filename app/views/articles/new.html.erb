@@ -1,0 +1,19 @@
+<br>
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+  <br>
+  <%= f.label :"subtitle1" %>
+  <%= f.text_field :"subtitle1" %>
+  <%= f.label :paragraph1 %>
+  <%= f.text_field :paragraph1 %>
+  <br>
+  <%= f.label :"subtitle2" %>
+  <%= f.text_field :"subtitle2" %>
+  <%= f.label :paragraph2 %>
+  <%= f.text_field :paragraph2 %>
+  <br>
+  <%= f.submit %>
+<% end %>

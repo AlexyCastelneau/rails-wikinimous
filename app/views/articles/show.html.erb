@@ -1,0 +1,16 @@
+<br>
+<h1><%= @article.title %></h1>
+<p><%= @article.content %></p>
+<h2><%= @article.subtitle1 %></h2>
+<p><%= @article.paragraph1 %></p>
+<h2><%= @article.subtitle2 %></h2>
+<p><%= @article.paragraph2 %></p>
+
+<br>
+<br>
+<br>
+
+<%= link_to "edit article", edit_article_path %>
+<br>
+<br>
+<%= link_to "back to list", articles_path %>
